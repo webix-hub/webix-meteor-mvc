@@ -1,0 +1,112 @@
+.webixappstart
+{
+	opacity: 0;
+}
+.webixapp
+{
+	opacity: 1;
+	transition: opacity 500ms;
+}
+.status_good,.status_error,.status_saving
+{
+	margin-left: -12px;
+	text-align: center;
+}
+.status_error
+{
+	color: #f00;
+}
+.status_good
+{
+	color: #008000;
+}
+.invalid_login .webix_header>div
+{
+	background: #fc3636;
+	transition: background 1s;
+}
+.invalid_login
+{
+	webkit-animation: formshake .5s linear;
+}
+@-webkit-keyframes formshake
+{
+	8%,41%
+	{
+		webkit-transform: translateX(-10px);
+	}
+	25%,58%
+	{
+		webkit-transform: translateX(10px);
+	}
+	75%
+	{
+		webkit-transform: translateX(-5px);
+	}
+	92%
+	{
+		webkit-transform: translateX(5px);
+	}
+	0%,100%
+	{
+		webkit-transform: translateX(0);
+	}
+}
+.webix_layout_toolbar.webix_toolbar.form-bottom-bar
+{
+	background: #34495e;
+}
+.center
+{
+	text-align: center;
+}
+.app-left-panel .webix_menu .webix_list_item.spacer:hover
+{
+	background: transparent;
+	cursor: default;
+}
+.webixapp
+{
+	background: #34495e;
+}
+.webix_layout_clean
+{
+	background: #fff;
+}
+.webix_menu
+{
+	border-radius: 0;
+}
+.app-left-panel,.app-left-panel .webix_view,.app-left-panel .webix_menu .webix_list_item
+{
+	background: #34495e;
+	color: #ddd;
+}
+.app-left-panel .webix_menu .webix_list_item.webix_selected
+{
+	color: #fff;
+}
+.app-left-panel .webix_menu .webix_list_item:hover
+{
+	background-color: #f5f5f5;
+	color: #000;
+}
+.app-left-panel .webix_header .webix_template
+{
+	background-color: #34495e;
+	border-bottom: 1px solid #fff;
+	padding-left: 0;
+	text-align: center;
+}
+.app-right-panel
+{
+	border-top-left-radius: 4px;
+}
+.app-right-panel .webix_layout_wide
+{
+	background: #fff;
+}
+.status_good
+{
+	color: #ddd;
+}
